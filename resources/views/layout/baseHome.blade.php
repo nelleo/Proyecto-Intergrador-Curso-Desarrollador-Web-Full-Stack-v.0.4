@@ -36,7 +36,7 @@
   <main>
     @yield("main")
   </main>
-  <footer class="py-2 bg-dark " style="margin-top:2%;">
+  <footer class="py-2 bg-dark" >
     <div class="row col-12" style="justify-content:center;">
       <a class="m-2" href="#">
       <img src="/img/facebook.svg" width="25px"></a>

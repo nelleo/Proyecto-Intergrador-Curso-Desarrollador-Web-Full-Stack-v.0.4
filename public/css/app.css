@@ -11142,3 +11142,82 @@ a.text-dark:focus {
 
 /*-- //slide --*/
 
+#caja-izq {
+  max-height: 360px;
+  max-width: 251px;
+  margin-top: 2%;
+  background-color: rgba(147, 173, 212, 0.5);
+}
+
+#ok-sugerencia {
+  position: relative;
+  bottom: 2.6em;
+  left: 11rem;
+}
+
+.ok-comentario {
+  position: relative;
+  bottom: 2.1rem;
+  left: 27.6rem;
+}
+
+.li-agregar-arc {
+  background-color: rgba(147, 173, 212, 0.8);
+}
+
+.input-agregar-arc {
+  width: 10.5vw;
+}
+
+.post {
+  background-color: rgba(147, 173, 212, 0.5);
+}
+
+.post-viejo {
+  background-color: rgba(147, 173, 212, 0.5);
+}
+
+.txt-post-de {
+  font-size: large;
+}
+
+.txt-post {
+  background-color: rgba(147, 173, 212, 0.8);
+  width: 100%;
+  height: 70px;
+  border-radius: 0.4rem;
+}
+
+#listo {
+  position: relative;
+  left: 40%;
+  bottom: 2.6em;
+  display: inline;
+  left: 25.3em;
+}
+
+#podes-agregar {
+  display: inline;
+}
+
+.radius {
+  border-radius: 0.9rem;
+}
+
+.delete {
+  position: relative;
+  bottom: 2rem;
+  right: 0.2em;
+}
+
+.ok-my-coment {
+  position: relative;
+  bottom: 2.2rem;
+  right: 0.1rem;
+}
+
+.form-my-post {
+  height: 4.3em;
+  text-align: end;
+}
+

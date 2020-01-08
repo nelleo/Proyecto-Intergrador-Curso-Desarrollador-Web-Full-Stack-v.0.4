@@ -5,6 +5,7 @@ namespace App;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Http\Request;
 
 class User extends Authenticatable
 {
@@ -44,7 +45,7 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $fillable = ['name','email','password','pais', 'telefono','fechanac'];
+    protected $fillable = ['name','email','password','pais', 'telefono','fechanac','foto_perfil'];
 
     /**
      * The attributes that should be hidden for arrays.
@@ -66,10 +67,5 @@ class User extends Authenticatable
 
     public function posteos(){
       return $this->hasMany('App\Posteo');//,'posteos','user_id','id');
-  }
-
-  public function guardarImg(Request $request,$destino){
-    $request->file('img')->store('public/'.$destino);
-  }
-
+    }
 }
